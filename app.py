@@ -120,9 +120,10 @@ def main():
     print("  * Backend API:     http://localhost:5000/api")
     print("  * Database:        MySQL (retail_management on port 3306)")
     print("\n  Default Demo Login Credentials:")
-    print("  - Administrator: Username: admin    | Password: password123")
-    print("  - Cashier:       Username: cashier1 | Password: password123")
-    print("  - Manager:       Username: manager1 | Password: password123")
+    print("  - Administrator: Email: admin@retail.com   | Password: admin123")
+    print("  - Cashier:       Email: cashier@retail.com | Password: cashier123")
+    print("  - Stock Lead:    Email: manager@retail.com | Password: manager123")
+    print("  (Note: You can also click the 1-Click Demo buttons on the login page!)")
     print("=" * 72)
 
     # Open browser automatically

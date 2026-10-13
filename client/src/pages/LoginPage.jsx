@@ -125,21 +125,21 @@ export default function LoginPage() {
             <div className="grid grid-cols-3 gap-2">
               <button
                 type="button"
-                onClick={() => setDemoCredentials('admin@retail.com', 'Admin@123')}
+                onClick={() => setDemoCredentials('admin@retail.com', 'admin123')}
                 className="py-2 px-2.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 rounded-lg text-xs font-medium border border-indigo-200 transition text-center"
               >
                 Admin
               </button>
               <button
                 type="button"
-                onClick={() => setDemoCredentials('cashier@retail.com', 'Cashier@123')}
+                onClick={() => setDemoCredentials('cashier@retail.com', 'cashier123')}
                 className="py-2 px-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 rounded-lg text-xs font-medium border border-emerald-200 transition text-center"
               >
                 Cashier
               </button>
               <button
                 type="button"
-                onClick={() => setDemoCredentials('manager@retail.com', 'Manager@123')}
+                onClick={() => setDemoCredentials('manager@retail.com', 'manager123')}
                 className="py-2 px-2.5 bg-amber-50 hover:bg-amber-100 text-amber-700 rounded-lg text-xs font-medium border border-amber-200 transition text-center"
               >
                 Stock Lead
